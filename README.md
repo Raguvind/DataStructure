@@ -1,5 +1,5 @@
 # Data Structures
-------------------------
+
 This project contains the various data structures and the implementation of the data structures using C#.
 
 Tools Used:
