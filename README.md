@@ -12,18 +12,18 @@ Data Structure
 
 Sort Algorithm
  - Bubble Sort
-    : In-Place Algorithm
-    : O(n2) - Quadratic
-    : Stable
+    - In-Place Algorithm
+    - O(n2) - Quadratic
+    - Stable
  - Selection Sort
-    : In-Place Algorithm
-    : O(n2) - Quadratic
-    : Un-Stable
-    : Better than bubble sort, because the number of swaps is less than bubble sort
+    - In-Place Algorithm
+    - O(n2) - Quadratic
+    - Un-Stable
+    - Better than bubble sort, because the number of swaps is less than bubble sort
 - Insertion Sort
-    : In-Place Algorithm
-    : O(n2) - Quadratic
-    : Stable
+    - In-Place Algorithm
+    - O(n2) - Quadratic
+    - Stable
 - Shell Sort
     - In-Place Algorithm
-    - O(n2) - Quadratic, but we can improve this by using a Gap that is greater than 1. Refer https://en.wikipedia.org/wiki/Shellsort#Gap_sequences for more info.
+    - O(n2) - Quadratic, but we can improve this by using a Gap that is greater than 1. Refer <a href="https://en.wikipedia.org/wiki/Shellsort#Gap_sequences">Wikipedia</a> for more info.
