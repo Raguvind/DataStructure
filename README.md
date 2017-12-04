@@ -24,3 +24,6 @@ Sort Algorithm
     : In-Place Algorithm
     : O(n2) - Quadratic
     : Stable
+- Shell Sort
+    - In-Place Algorithm
+    - O(n2) - Quadratic, but we can improve this by using a Gap that is greater than 1. Refer https://en.wikipedia.org/wiki/Shellsort#Gap_sequences for more info.
