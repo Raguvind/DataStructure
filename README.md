@@ -10,7 +10,7 @@ Below is the list of Data Structures and Algorithms that are part of the project
 Data Structure
  - N/A
 
-Algorithm
+Sort Algorithm
  - Bubble Sort
     : In-Place Algorithm
     : O(n2) - Quadratic
@@ -20,3 +20,7 @@ Algorithm
     : O(n2) - Quadratic
     : Un-Stable
     : Better than bubble sort, because the number of swaps is less than bubble sort
+- Insertion Sort
+    : In-Place Algorithm
+    : O(n2) - Quadratic
+    : Stable

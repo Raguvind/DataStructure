@@ -11,12 +11,20 @@
             
             RunBubbleSort(unsortedArray);
             RunSelectionSort(unsortedArray);
+            RunInsertionSort(unsortedArray);
+        }
+
+        static void RunInsertionSort(int[] array)
+        {
+            var sortAlgorithm = new InsertionSort();
+            var result = sortAlgorithm.Sort(array);
+            PrintArray("Insertion Sort",  result);
         }
 
         /// Summary: Represents the method that runs the selection sort for the array.
         static void RunSelectionSort(int[] array)
         {
-            /// Sorting the array by bubble sort
+            /// Sorting the array by selection sort
             var sortAlgorithm = new SelectionSort();
             var result = sortAlgorithm.Sort(array);
             PrintArray("Selection Sort",  result);
@@ -35,7 +43,7 @@
 
         static void PrintArray(string sortName, int[] sortedArray)
         {
-            Console.WriteLine("*****************" + sortName + "*****************" );
+            Console.WriteLine("***************** " + sortName + " *****************" );
 
             for (int i = 0; i < sortedArray.Length; i++)
             {
