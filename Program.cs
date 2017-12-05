@@ -8,10 +8,23 @@
         static void Main(string[] args)
         {
             int[] unsortedArray = new int[] {22,3,1,-20,45,67,-100,34};
+            // int[] unsortedArray = new int[] {20,35,-15,7,55,1,-22};
             
-            RunBubbleSort(unsortedArray);
-            RunSelectionSort(unsortedArray);
-            RunInsertionSort(unsortedArray);
+            PrintArray("Bubble Sort", BubbleSort.Sort(unsortedArray));
+            PrintArray("Bubble Sort Optimized", BubbleSort.SortOptimized(unsortedArray));
+            PrintArray("Merge Sort", MergeSort.Sort(unsortedArray));
+
+            // RunBubbleSort(unsortedArray);
+            // RunSelectionSort(unsortedArray);
+            // RunInsertionSort(unsortedArray);
+            // RunShellSort(unsortedArray);
+        }
+
+        static void RunShellSort(int[] array)
+        {
+            var sortAlgorithm = new ShellSort();
+            var result = sortAlgorithm.Sort(array);
+            PrintArray("Shell Sort",  result);
         }
 
         static void RunInsertionSort(int[] array)
@@ -28,17 +41,6 @@
             var sortAlgorithm = new SelectionSort();
             var result = sortAlgorithm.Sort(array);
             PrintArray("Selection Sort",  result);
-        }
-
-        /// Summary: Represents the method that runs the bubble sort for the array.
-        static void RunBubbleSort(int[] array)
-        {
-            /// Sorting the array by bubble sort
-            var bubbleSortAlgorithm = new BubbleSort();
-            var bubbleSortResult = bubbleSortAlgorithm.Sort(array);
-            PrintArray("Bubble Sort",  bubbleSortResult);
-            bubbleSortResult = bubbleSortAlgorithm.SortOptimized(array);
-            PrintArray("Bubble Sort Optimized",  bubbleSortResult);
         }
 
         static void PrintArray(string sortName, int[] sortedArray)

@@ -14,16 +14,19 @@ Sort Algorithm
  - Bubble Sort
     - In-Place Algorithm
     - O(n2) - Quadratic
-    - Stable
+    - Stable Sort Algorithm
  - Selection Sort
     - In-Place Algorithm
     - O(n2) - Quadratic
-    - Un-Stable
+    - Un-Stable Sort Algorithm
     - Better than bubble sort, because the number of swaps is less than bubble sort
 - Insertion Sort
     - In-Place Algorithm
     - O(n2) - Quadratic
-    - Stable
+    - Stable Sort Algorithm
 - Shell Sort
     - In-Place Algorithm
     - O(n2) - Quadratic, but we can improve this by using a Gap that is greater than 1. Refer <a href="https://en.wikipedia.org/wiki/Shellsort#Gap_sequences">Wikipedia</a> for more info.
+    - Un-Stable Sort Algorithm
+- Merge Sort
+    - 
